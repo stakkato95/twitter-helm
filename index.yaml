@@ -2,6 +2,26 @@ apiVersion: v1
 entries:
   twitter-app:
   - apiVersion: v2
+    created: "2022-06-11T20:35:40.756142421Z"
+    dependencies:
+    - name: twitter-graphql
+      repository: https://stakkato95.github.io/twitter-graphql
+      version: 0.1.2
+    - name: twitter-users
+      repository: https://stakkato95.github.io/twitter-users
+      version: 0.1.0
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.1.7
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.6.5
+    digest: 6026b3d22fa2c4d3564965c8a53d8e5fa8225d22e43bcf4dbf7b385162ad4e9b
+    name: twitter-app
+    urls:
+    - https://github.com/stakkato95/twitter-helm/releases/download/twitter-app-0.1.8/twitter-app-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
     created: "2022-06-11T20:25:29.904033266Z"
     dependencies:
     - name: twitter-graphql
@@ -102,4 +122,4 @@ entries:
     urls:
     - https://github.com/stakkato95/twitter-helm/releases/download/twitter-app-0.1.1/twitter-app-0.1.1.tgz
     version: 0.1.1
-generated: "2022-06-11T20:25:29.904159966Z"
+generated: "2022-06-11T20:35:40.756173121Z"
