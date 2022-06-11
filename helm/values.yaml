@@ -1,5 +1,5 @@
 # global:
-#   mysql:
-#     auth:
-#       rootPassword: root
-#       database: users
+mysql:
+  auth:
+    rootPassword: root
+    database: users
