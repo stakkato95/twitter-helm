@@ -1,10 +1,13 @@
 apiVersion: v2
 name: twitter-app
-version: 0.1.5
+version: 0.1.6
 dependencies:
   - name: twitter-graphql
     repository: https://stakkato95.github.io/twitter-graphql
     version: 0.1.1
+  - name: twitter-users
+    repository: https://stakkato95.github.io/twitter-users
+    version: 0.1.0
   - name: mysql
     repository: https://charts.bitnami.com/bitnami
     version: 9.1.7
