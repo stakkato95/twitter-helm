@@ -1,0 +1,3 @@
+auth:
+  rootPassword: root
+  database: users
