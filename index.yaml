@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  twitter-app:
+  - apiVersion: v2
+    created: "2022-06-11T17:00:23.671571274Z"
+    dependencies:
+    - name: twitter-graphql
+      repository: https://stakkato95.github.io/twitter-graphql
+      version: 0.1.1
+    digest: 1f53c29006395917e514e263f15eb924a026f6e2fc7c1f58a2e1abc270a93f78
+    name: twitter-app
+    urls:
+    - https://github.com/stakkato95/twitter-helm/releases/download/twitter-app-0.1.1/twitter-app-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-06-11T17:00:23.671575975Z"
