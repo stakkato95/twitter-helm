@@ -1,3 +1,5 @@
-auth:
-  rootPassword: root
-  database: users
+global:
+  mysql:
+    auth:
+      rootPassword: root
+      database: users
