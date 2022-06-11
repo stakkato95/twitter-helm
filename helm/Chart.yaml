@@ -1,0 +1,7 @@
+apiVersion: v2
+name: twitter-app
+version: 0.1.0
+dependencies:
+  - name: twitter-graphql
+    repository: https://stakkato95.github.io/twitter-graphql
+    version: 0.1.0
