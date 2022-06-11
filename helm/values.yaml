@@ -3,3 +3,10 @@ mysql:
   auth:
     rootPassword: root
     database: users
+
+global:
+  postgresql:
+    auth:
+      username: root
+      password: root
+      database: tweetsdb
