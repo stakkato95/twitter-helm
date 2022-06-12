@@ -1,4 +1,3 @@
-# global:
 mysql:
   auth:
     rootPassword: root
@@ -10,3 +9,12 @@ global:
       username: root
       password: root
       database: tweetsdb
+
+kafka:
+  deleteTopicEnable: true
+  auth:
+    clientProtocol: plaintext
+    sasl:
+      jaas:
+        clientUsers: "{user}"
+        clientPasswords: "{user}"

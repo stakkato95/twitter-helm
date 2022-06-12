@@ -1,6 +1,6 @@
 apiVersion: v2
 name: twitter-app
-version: 0.1.8
+version: 0.1.9
 dependencies:
   - name: twitter-graphql
     repository: https://stakkato95.github.io/twitter-graphql
@@ -14,3 +14,6 @@ dependencies:
   - name: postgresql
     repository: https://charts.bitnami.com/bitnami
     version: 11.6.5
+  - name: kafka
+    repository: https://charts.bitnami.com/bitnami
+    version: 17.2.6
